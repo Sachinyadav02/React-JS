@@ -2,6 +2,8 @@
 
 ## React Library 
 
+- React is JavaScript Library.
+- React is used to Single Page Application (Complete Website in Single Page).
 - In React library there are two attachments.
 
 ```mermaid
@@ -11,6 +13,21 @@ graph TB;
    React-Native --> For_Mobile_Development
     React-DOM --> For_Web_Development;
 ```
+
+## Why React is Fast ??
+
+**React use Virtual DOM.**
+
+Example :-
+``` html
+<ul>
+  <li>Coffee</li>
+  <li>Milk</li>
+  <li>Tea</li>
+</ul
+```
+- Virtual DOM update only required list.
+- Real DOM update complete list.
 
 ## How to Create project in React ??
 
