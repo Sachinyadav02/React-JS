@@ -80,11 +80,61 @@ Example :-
 
 **(4) `package.json`** It contains information about this project like `name, version, dependencies` on other react packages.  
 
-**(5) `vite.config.js`** It contains vite config.  
+**(5) `vite.config.js`** It contains vite config. 
 
- 
+<img src="https://github.com/user-attachments/assets/03e0a358-8668-49b7-9736-fb8c9b3fda3d" alt="Screenshot 2024-10-09 000145" width="400" >
+
+
+## Components in React JS 
+
+- Components help us write reusable, modular and better organized code.
+- React application is a tree of components with App Component as the root bringing everything together.
+
+### Types of Components 
+
+**(i) `Class Components`**
+
+- Stateful: Can manage state.  
+- Lifecycle: Access to lifecycle methods.  
+- Verbose: More boilerplate code.  
+- Not Preferred anymore.
+
+**(i) `Functional Components`**
+
+- Initially stateless.  
+- Can use Hooks for state and effects.  
+- Simpler and more concise.  
+- More Popular.
+
+``` jsx
+function Abhi() {
+  return(
+      <h2>Hello Abhishek</h2>
+  )
+}
+
+export default App
+```
+
+## What is JSX ??
+
+**(1.) `Definition`** : JSX determines how the UI will look wherever the component is used.  
+
+**(2.) `Not HTML`** : Though it resembles HTML, you're actually writing JSX, which stands for JavaScript XML.  
+
+**(3.) `Conversion`** : JSX gets converted to regular JavaScript.  
+
+**(4.) `Babeljs.io/repl`** : It is a tool that allows you to see how JSX is transforme. 
+
+## Exporting Components 
+
+- Enables the use of a component in other parts.  
+- Default Export: Allows exporting a single component as the default from a module.  
+- Named Export: Allows exporting multiple items from a module.  
+- Importing: To use an exported component, you need to import it in the destination file using import syntax.
   
- 
+ <img src="https://github.com/user-attachments/assets/e3d995fe-7d7b-48d0-b8ee-273f5f37798e" alt="Screenshot 2024-10-08 230937" height="350" width="650">
+
 
 
 
