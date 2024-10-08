@@ -106,8 +106,8 @@ Example :-
 - Simpler and more concise.  
 - More Popular.
 
-``` jsx
-function Abhi() {
+``` App.jsx
+function App() {
   return(
       <h2>Hello Abhishek</h2>
   )
@@ -133,7 +133,29 @@ export default App
 - Named Export: Allows exporting multiple items from a module.  
 - Importing: To use an exported component, you need to import it in the destination file using import syntax.
   
- <img src="https://github.com/user-attachments/assets/e3d995fe-7d7b-48d0-b8ee-273f5f37798e" alt="Screenshot 2024-10-08 230937" height="350" width="650">
+ <img src="https://github.com/user-attachments/assets/e3d995fe-7d7b-48d0-b8ee-273f5f37798e" alt="Screenshot 2024-10-08 230937" height="350" width="650">  
+
+ ## Dynamic Components
+
+ - Dynamic Content: JSX allows the creation of dynamic and interactive UI components.
+ - JavaScript Expressions: Using {}, we can embed any JS expression directly within JSX. This includes variables, function calls, and more.
+
+``` App.jsx
+function App() {
+	let name = "Abhishek Yadav";
+
+	return (
+		<>
+			<h3>Hello this is {name}</h3>
+		</>
+	);
+}
+
+export default App;
+```
+
+
+
 
 
 
