@@ -168,7 +168,7 @@ function App() {
 		<>
 			<h1>This is Reusable Component</h1>
 
-			<Random></Random>
+			<Random></Random>                // We can use this component multiple times.
 			<Random />
 		</>
 	);
