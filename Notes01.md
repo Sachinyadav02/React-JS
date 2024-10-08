@@ -154,6 +154,43 @@ function App() {
 export default App;
 ```
 
+## ReUsable Components
+
+Components are modular,allowing for easy reuse across different parts of an application.  
+
+> **App.jsx**
+``` App.jsx
+import Abhi from "./Components/abhi";
+import Random from "./Random";
+
+function App() {
+	return (
+		<>
+			<h1>This is Reusable Component</h1>
+
+			<Random></Random>
+			<Random />
+		</>
+	);
+}
+
+export default App;
+```
+
+> **Component.jsx**
+``` Component.jsx
+function Random() {
+	let number = Math.random() * 100;
+
+	return (
+		<>
+			<h2> Random Number is : {Math.round(number)} </h2>
+		</>
+	);
+}
+
+export default Random;
+```
 
 
 
