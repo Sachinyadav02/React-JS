@@ -66,6 +66,22 @@ Example :-
   - Enter and Project is created.
  
 - CMD to Run Project --> **`npm run dev`**
+
+## File Structure in React JS
+
+**(1) `node modules`** --> It has all the installed node packages.  
+
+**(2) `public`** -->  It contains static files that don't change. 
+
+**(3) `src`** --> Main folder for the React code.  
+- **`components`** --> Reusable parts of the UI, like buttons or headers.  
+- **`assets`** --> Images, fonts, and other static files.  
+- **`styles`** --> CSS or stylesheets.
+
+**(4) `package.json`** It contains information about this project like `name, version, dependencies` on other react packages.  
+
+**(5) `vite.config.js`** It contains vite config.  
+
  
   
  
