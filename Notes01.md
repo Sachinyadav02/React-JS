@@ -192,6 +192,11 @@ function Random() {
 export default Random;
 ```
 
+## Including BootStrap in React JS
+
+- **`Install`** --> npm i bootstrap@5.3.2
+
+- **`Import`** --> import "bootstrap/dist/css/bootstrap.min.css";
 
 
 
