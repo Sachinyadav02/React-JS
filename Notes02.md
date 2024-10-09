@@ -5,6 +5,6 @@
 - Allows grouping of multiple elements without extra DOM nodes.  
 - Return multiple elements without a wrapping parent.
  
-- **`Syntax`**
-  (i) <React.Fragment>...</React.Fragment>  
-  (ii) <>...</> 
+- **`Syntax`**  
+  (i)  <React.Fragment> ..... </React.Fragment>  
+  (ii)  <> ..... </> 
